@@ -2,9 +2,9 @@
 
 ### Use Case
 
-The goal of this was to solve a very niche use case I had were I wanted to practice typing special characters but, at best I only could find random ascii characters. I wanted to still retain some semblance of words while injecting the characters I wanted to learn in and next to those words leading to this project.
+The goal of this was to solve a very niche use case I had were I wanted to practice typing special characters but at best I only could find random ascii characters. I wanted to still retain some semblance of words while injecting the characters I wanted to learn into and around normal words which lead to this project.
 
-Aside from the uneventful name this script will take a random word from wordlist.txt randomly pick either 2 or 3 passes, each pass consisting of randomly picking a length to split the word and adding a random character from a array of characters, finally adding each of these words to a final string that will be printed out and optionally automatically copied to your clipboard.
+Aside from the uneventful name this script will take a random word from wordlist.txt randomly pick either 2 or 3 passes, each pass consisting of randomly picking a length to split the word and adding a random character from a array of characters, finally adding each of these words to a final string that will be printed out and optionally, automatically copied to your clipboard.
 
 ### Setup
 
@@ -12,7 +12,7 @@ There are two default arrays one with numbers and another with special character
 
 ### Array Example
 
-Just add each character you want to add in a array like below.
+Add the characters you want in a array like the example below.
 
 ```
 ["!", "@", "#"]
