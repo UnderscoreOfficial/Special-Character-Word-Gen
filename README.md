@@ -25,3 +25,11 @@ Optionally install pyperclip to automatically copy output to your clipboard. The
 ```
 pip install pyperclip
 ```
+
+### Example Output
+
+Using special_array
+
+```
+b}\e@sid v|ote me=dicines b%el_ cat(]alog re{spectiv< {:fo> .]ma :incid{ent \p'lu oxy:ge/ di=sc con%sult:a#n <chri$>stiani (universa) reve'r+s kis>-si; ^n%ic a)n) d!igest t>e!" [=;e s."ak ns"- a"/ssemb$ sim+il]{ar accur,at- "-_i s@]uperio $a|; c"*entur bubble< sh_^_ th?e ref!er'rin }ba-lanc hu,nt f.o| q(t$ m}yr$t$ mode^r/ato \>!ze a'r.m abst%rac| &publi\sh&e m]it'chel %b_r win$_te en^abl;e
+```
