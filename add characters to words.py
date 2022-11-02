@@ -13,8 +13,8 @@ special_array = ["!", "@", "#", "$", "%", "^", "&", "*",
 
 number_array = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
-# set ammount of words to be generated
-ammount_of_words = 1000
+# set amount of words to be generated
+amount_of_words = 1000
 
 # set array to which ever array u want to use
 array = special_array
@@ -22,7 +22,7 @@ array = special_array
 
 def wordFormatter(random_word, function_count):
 
-    # spliting the base word randomly
+    # splitting the base word randomly
     random_splice = random.randrange(len(random_word))
 
     # making splices from random_splice and inserting a random char from array
@@ -43,12 +43,12 @@ with open("wordlist.txt", "r") as file:
     words_in_file = list(map(str, file.readlines()))
 
     completed_paragraph = str("")
-    for word in range(ammount_of_words-1):
+    for word in range(amount_of_words-1):
 
         # picks a random word from words_in_file list
         random_word = random.choice(words_in_file).lower()
 
-        # some exta varriaton of how many times characters get mixed into the word
+        # some extra variation of how many times characters get mixed into the word
         match random.randrange(2, 4):
             case 2:
                 final_word = wordFormatter(random_word, 2)
